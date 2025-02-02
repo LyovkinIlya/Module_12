@@ -1,4 +1,4 @@
-2025-02-02 20:28:57,643 | WARNING | Неверный тип данных для объекта Runner
+2025-02-02 20:33:09,067 | WARNING | Неверный тип данных для объекта Runner
 Traceback (most recent call last):
   File "C:\Users\User\PycharmProjectsForUrbanUni\Module_12\12_4\tests_12_4.py", line 20, in test_run
     r2 = rt_with_exceptions.Runner('R2', -10)
@@ -6,7 +6,7 @@ Traceback (most recent call last):
   File "C:\Users\User\PycharmProjectsForUrbanUni\Module_12\12_4\rt_with_exceptions.py", line 11, in __init__
     raise ValueError(f'Скорость не может быть отрицательной, сейчас {speed}')
 ValueError: Скорость не может быть отрицательной, сейчас -10
-2025-02-02 20:28:57,646 | WARNING | Неверная скорость для Runner
+2025-02-02 20:33:09,071 | WARNING | Неверная скорость для Runner
 Traceback (most recent call last):
   File "C:\Users\User\PycharmProjectsForUrbanUni\Module_12\12_4\tests_12_4.py", line 10, in test_walk
     r1 = rt_with_exceptions.Runner(10, 20)
